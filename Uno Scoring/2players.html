@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Uno Scorer</title>
+	<link rel="stylesheet" type="text/css" href="uno.css">
+</head>
+<body>
+	<h1>Playing to: 500</h1>
+	
+	<h3>Player 1 </h3>
+	<div>
+		<input type="number" placeholder="Current score here" id="inputNumber1">
+		<input type="number" placeholder="New score here" id="inputNumber2">
+		<span><button id="add1">Add</button></span>
+	</div>
+	
+
+	<h3>Player 2</h3>
+	<div>
+		<input type="number" placeholder="Current score here" id="inputNumber3">
+		<input type="number" placeholder="New score here" id="inputNumber4">
+		<span><button id="add2">Add</button></span>
+	</div>
+	
+
+
+	<div class="score">
+		<h4>P1's Score:</h4>
+		<p><span id="p1ScoreDisplay">0</span> <span id="p1Win" class="decisionColor"></span></p> 
+	</div>
+	
+	<div class="score">
+		<h4>P2's Score:</h4>
+		<p><span id="p2ScoreDisplay">0</span> <span id="p2Win" class="decisionColor"></span></p>
+	</div>
+
+	<button id="reset">reset</button>
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="uno.js"></script>
+</body>
+</html>

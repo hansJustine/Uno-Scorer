@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+#container{
+    min-height: 100%;
+}
+#align{
+    text-align: center;
+    overflow: auto;
+    padding-bottom: 100px;
+    margin-top: 10px;
+}
+#size{
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 0;
+}
+#foot{
+    background-color: #000;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both; 
+}
+footer{
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 20px; 
+}
+h2{
+    margin-top: 10px;
+}
